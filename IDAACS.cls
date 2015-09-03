@@ -3750,7 +3750,7 @@ between column types.}%
 \def\IEEEkeywords{\vspace{9pt}\normalfont
     \if@twocolumn
 %Modified to shortspace after keywordsname
-      \@IEEEabskeysecsize\bfseries\textit{\IEEEkeywordsname} -- \relax
+      \@IEEEabskeysecsize\bfseries\itshape\textit{\IEEEkeywordsname} --- \relax
     \else
       \begin{center}\@IEEEabskeysecsize\textbf{\IEEEkeywordsname}\end{center}\quotation\@IEEEabskeysecsize
     \fi\@IEEEgobbleleadPARNLSP}
