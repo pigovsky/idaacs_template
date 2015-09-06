@@ -3738,7 +3738,7 @@ between column types.}%
 \def\abstract{\normalfont
     \if@twocolumn
 %\Modified to shortspace after abstractname
-      \@IEEEabskeysecsize\bfseries\textit{\abstractname} -- \relax
+      \@IEEEabskeysecsize\bfseries\textit{\abstractname} --- \relax
     \else
       \begin{center}\vspace{-1.78ex}\@IEEEabskeysecsize\textbf{\abstractname}\end{center}\quotation\@IEEEabskeysecsize
     \fi\@IEEEgobbleleadPARNLSP}
