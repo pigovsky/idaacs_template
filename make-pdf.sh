@@ -33,8 +33,9 @@ if [ "$extension" != "tex" ]; then
 fi
 echo processing $texFile
 filename="${filename%.*}"
-rm IEEEtran.bst
-ln -s $DIR/IEEEtran.bst .
+#rm IEEEtran.bst
+cp $DIR/IEEEtran.bst .
+cp $DIR/IEEEabrv.bib .
 #rm IDAACS.cls
 pdflatex --shell-escape $texFile
 bibtex $filename.aux
